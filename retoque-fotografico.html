@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Retoque fotográfico</title>
+	<link rel="icon" href="C:\Users\usuario\OneDrive\Desktop\Diseño y multimedia\1x\logo.png">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<script src="https://kit.fontawesome.com/bdda81495f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section class="header">
+		<div class="navegacion">
+			<section class="barra_navegacion">
+				<div class="div_nav"><a href="file:///C:/Users/usuario/OneDrive/Desktop/Dise%C3%B1o%20y%20multimedia/index.html">Inicio</a></div>
+				<div class="div_nav"><a href="file:///C:/Users/usuario/OneDrive/Desktop/Dise%C3%B1o%20y%20multimedia/articulos.html">Artículos</a></div>
+				<div class="div_nav"><a href="">Contacto</a></div>
+
+				<ul class="navegacion_res">
+					<li class="div_nav_res"><a href="file:///C:/Users/usuario/OneDrive/Desktop/Dise%C3%B1o%20y%20multimedia/index.html">Inicio</a></li>
+					<li class="div_nav_res"><a href="file:///C:/Users/usuario/OneDrive/Desktop/Dise%C3%B1o%20y%20multimedia/articulos.html">Artículos</a></li>
+					<li class="div_nav_res"><a href="">Contacto</a></li>
+				</ul>
+			</section>
+		</div>
+		<div class="contenedor_logo"><a href="file:///C:/Users/usuario/OneDrive/Desktop/Dise%C3%B1o%20y%20multimedia/index.html"><img src="C:\Users\usuario\OneDrive\Desktop\Diseño y multimedia\1x\logo.png" alt="diseño y multimedia logo"></a></div>
+
+		<i class="fa-solid fa-bars" id="icono"></i>
+	</section>
+
+	<h1 class="retoque_titulo">Retoque fotográfico</h1>
+	<div class="contenido">
+		<div class="contenedor_textos">
+			<div class="textos">
+				<div class="texto" id="CM1">
+					<h2>5.1 Filtros</h2>
+					<p>Clonar: permite duplicar o eliminar partes de una imagen. Podemos ver cómo la primera imagen de cada tipo está sin editar.</p>
+					<img src="clonar.png">
+					<img src="clonar2.png">
+					<br><br><br><br><br><br><p>Eliminar imperfecciones: permite corregir pequeñas imperfecciones. La primera imagen está sin editar.</p>
+					<img src="imperfecciones.png">
+					
+				</div>
+
+				<div class="texto" id="CM2">
+					<h2>5.2 Prácticas</h2>
+					<p>Práctica 1:</p>
+					<img src="p1.jpg">
+					<br><br><br><br><br><br><br><br><br><br><br><br>
+					<p>Práctica 2:</p>
+					<br><br>
+					<p>Original</p>
+					<img src="p21.jpg">
+					<br><br><br><br><br><br>
+					<p>Mosaico de papel</p>
+					<img src="p22.jpg">
+					<br><br><br><br><br><br>
+					<p>Redondear bordes</p>
+					<img src="p23.jpg">
+					<br><br><br><br><br><br>
+					<p>Difuminar borde</p>
+					<img src="p24.jpg">
+					<br><br><br><br><br><br>
+					<p>Película</p>
+					<img src="p25.jpg">
+					<br><br><br><br><br><br><br><br><br><br><br><br>
+					<p>Práctica 3:</p>
+					<br><br>
+					<p>Original</p>
+					<img src="p31.jpg">
+					<br><br><br><br><br><br>
+					<p>Imagen editada</p>
+					<img src="p32.jpg">
+				</div>
+
+				<div class="texto" id="CM3">
+					<h2>5.3 Fotomontaje</h2>
+					<p>En esta imagen podemos ver un ejemplo de fotomontaje. En este caso, hemos añadido un pájaro, un barco, un árbol y un avión a un fondo o paisaje.</p>
+					<img src="avion.jpg">
+					<img src="pajaro.jpg">
+					<img src="barco.jpg">
+					<img src="arbol.jpg">
+					<img src="fondo.jpg">
+					<br><br><br><p>El resultado final:</p>
+					<img src="fotomontaje.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="contenedor_indice">
+			<p><a href="#CM1">5.1 Filtros</a><br><br><br><br><br><a href="#CM2">5.2 Prácticas</a><br><br><br><br><br><a href="#CM3">5.3 Fotomontaje</a></p>
+		</div>
+	</div>
+
+	<section class="footer">
+		<p>Copyright 2023, all rights reserved</p>
+		<img src="C:\Users\usuario\OneDrive\Desktop\Diseño y multimedia\1x\firma_blanca.png">
+	</section>
+		
+	<script type="text/javascript">
+		i = document.querySelector("#icono");
+		i.onclick = function() {
+			navegacion = document.querySelector(".navegacion");
+			navegacion.classList.toggle("active");
+			icono = document.querySelector("#icono");
+			icono.classList.toggle("active");
+			barra_navegacion = document.querySelector(".barra_navegacion");
+			barra_navegacion.classList.toggle("active");
+		}
+	</script>
+</body>
+</html>
